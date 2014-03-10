@@ -1,0 +1,30 @@
+.navbar-header {
+	height: 62px;
+	margin: auto;
+	background-color: #e67e22;
+	margin-left: -15px;
+}
+
+.header .navbar-brand {
+    padding: 15px 15px;
+}
+
+.navbar > .container .navbar-brand {
+    margin-left: 0px;
+}
+
+.copyright p.copyright-space {
+	margin-bottom: 0px;
+	font-size: 11px;
+    margin-top: auto;
+}
+
+.footer li {
+    color: #dadada;
+}
+
+
+.footer li a {
+    color: #dadada;
+    font-size: 12px;
+}

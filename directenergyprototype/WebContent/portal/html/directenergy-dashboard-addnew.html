@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Direct Energy</title>
+<!-- Meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="SHORTCUT ICON" href="../images/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header1.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    
+    
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/flexslider.css">       
+    <link rel="stylesheet" href="../css/jquery_002.css">
+    <link rel="stylesheet" href="../css/jquery.css"> 
+    <link rel="stylesheet" href="../css/settings.css" type="text/css" media="screen">
+    
+    
+    <link rel="stylesheet" href="../css/page_pricing.css">
+    
+    
+    
+    <link rel="stylesheet" href="../css/orange.css" id="style_color">
+    <link rel="stylesheet" href="../css/header1-orange.css" id="style_color-header-1">
+    
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body class="boxed-layout container">
+    <!--=== Top ===-->    
+<div class="top">
+    <div class="container">         
+        <ul class="loginbar pull-right">
+            <li>
+                <i class="icon-globe"></i>
+                <a>Languages</a>
+                <ul class="lenguages">
+                    <li class="active">
+                        <a href="#">English <i class="icon-ok"></i></a> 
+                    </li>
+                    <li><a href="#">Spanish</a></li>
+                    <li><a href="#">Russian</a></li>
+                    <li><a href="#">German</a></li>
+                </ul>
+            </li>
+            <li class="devider"></li>   
+            <li><a href="#">Help</a></li>  
+            <li class="devider"></li>   
+            <li><a href="#">Admin Login</a></li>   
+        </ul>
+    </div>      
+</div><!--/top-->
+<!--=== End Top ===-->    
+
+
+
+<!--=== Header ===-->    
+<div class="header">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" style="margin-left: -15px;">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img id="logo-header" src="../images/deb-logo-white.png" alt="Logo">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown active">
+                        <a href="#" onclick="gotoPage('home')" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
+                            Home
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
+                            Electricity
+                            <i class="icon-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a onclick="gotoPage('electricity')" href="#">View Product</a></li>
+                            <li><a onclick="gotoPage('add')" href="#">Add New Product</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
+                            Natural Gas
+                            <i class="icon-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">View Product</a></li>
+                            <li><a href="#">Add New Product</a></li>
+                        </ul>
+                    </li>              
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
+                            Home Services
+                            <i class="icon-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">View Product</a></li>
+                            <li><a href="#">Add New Product</a></li>
+                        </ul>
+                    </li>                                        
+                    
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
+                            Features
+                            <i class="icon-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Features 1</a></li>
+                            <li><a href="#">Features 2</a></li>
+                            <li><a href="#">Features 3</a></li>
+                            <li><a href="#">Features 4</a></li>
+                            <li><a href="#">Features 5</a></li>
+                            <li><a href="#">Features 6</a></li>
+                            <li><a href="#">Features 7</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
+                            Contacts
+                            <i class="icon-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Contacts Option 1</a></li>
+                            <li><a href="#">Contacts Option 2</a></li>
+                        </ul>
+                    </li>                    
+                    <li class="hidden-sm"><a class="search"><i class="icon-search search-btn"></i></a></li>
+                </ul>
+                <div class="search-open">
+                    <div class="input-group">
+                        <input class="form-control" placeholder="Search" type="text">
+                        <span class="input-group-btn">
+                            <button class="btn-u" type="button">Go</button>
+                        </span>
+                    </div><!-- /input-group -->
+                </div>                
+            </div><!-- /navbar-collapse -->
+        </div>    
+    </div>    
+</div><!--/header-->
+<!--=== End Header ===-->    
+
+        
+    <div class="breadcrumbs">
+    <div class="container">
+        <h1 class="pull-left">Electricity</h1>
+        <ul class="pull-right breadcrumb">
+            <li><a onclick="gotoPage('home')" href="#">Home</a></li>
+            <li ><a onclick="gotoPage('electricity')" href="#">Electricity</a></li>
+            <li class="active">Add New</li>            
+        </ul>
+    </div>
+</div>
+
+
+
+<!--=== End Slider ===-->
+
+<br/>
+
+<div class="container"> 
+    
+
+<div class="row">
+
+<div class="col-md-1">
+
+</div>
+
+<div class="col-md-10" style="display:none;" id="successmessage">
+    <div class="alert alert-success">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <strong>  New Product Added Successfully !</strong>
+    </div>
+</div>
+
+<div class="col-md-1">
+
+</div>
+
+</div>
+   
+    
+<div class="row margin-bottom-40">
+
+<div class="col-md-1">
+
+</div>
+
+<div class="col-md-10">
+
+<div class="panel panel-orange margin-bottom-40">
+                
+                
+    <div class="panel-heading">
+        <h3 class="panel-title"><i class="icon-tasks"></i> Add New Product</h3>
+    </div>
+    
+    
+    
+    <div class="panel-body">                                                      
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <label for="inputId" class="col-lg-2 control-label">Product Id</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="ProductId" placeholder="Product Id" style="width: 150px;">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputName" class="col-lg-2 control-label">Product Name</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="ProductName" placeholder="Product Name" style="width: 300px;">
+                </div>
+            </div>
+            
+           <div class="form-group">
+                <label for="startDate" class="col-lg-2 control-label">Start Date</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="startDate" placeholder="Start Date"  style="width: 150px;">
+                </div>
+            </div>        
+            
+           <div class="form-group">
+                <label for="endDate" class="col-lg-2 control-label">End Date</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="endDate" placeholder="End Date" style="width: 150px;">
+                </div>
+            </div>
+            
+           <div class="form-group">
+                <label for="customer" class="col-lg-2 control-label">Customer Type</label>
+                <div class="col-lg-10">
+                    <select class="form-control" style="width: 150px;">
+                        <option>Commercial</option>
+                        <option>Residential</option>
+                    </select>
+                </div>
+            </div>
+            
+           <div class="form-group">
+                <label for="rank" class="col-lg-2 control-label">Ranking</label>
+                <div class="col-lg-10">
+                    <select class="form-control" style="width: 70px;">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+            </div>                        
+                        
+           <div class="form-group">
+                <label for="customer" class="col-lg-2 control-label">Brand</label>
+                <div class="col-lg-10">
+                    <select class="form-control" style="width: 150px;">
+                        <option>Local</option>
+                        <option>Foreign</option>
+                    </select>
+                </div>
+            </div>                        
+                        
+
+                        <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                    <button class="btn-u btn-u-orange" onclick="$('#successmessage').show(); return false;">Save Product</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="col-md-1">
+
+</div>
+
+</div>        
+</div>
+        
+      
+     
+    <!--=== Footer ===-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 md-margin-bottom-40">
+                <!-- About -->
+                
+                <div class="headline"><h2>For Your Bussiness</h2></div>  
+                <p class="margin-bottom-25 md-margin-bottom-40">
+                    <ul class="list-unstyled margin-bottom-20">
+                        <li><a href="#">Electricity Service</a></li>
+                        <li><a href="#">Natural Gas Service</a></li>
+                        <li><a href="#">Small Business</a></li>
+                        <li><a href="#">Medium/Large Business</a></li>
+                    </ul>
+                </p>    
+
+                <div class="headline"><h2>For Your Home</h2></div>  
+                <p class="margin-bottom-25 md-margin-bottom-40">
+                    <ul class="list-unstyled margin-bottom-20">
+                        <li><a href="#">Energy For Your Home</a></li>
+                        <li><a href="#">Contact Our Residential Team</a></li>
+                    </ul>
+                </p>                       
+                
+                
+                              
+            </div><!--/col-md-4-->  
+            
+            <div class="col-md-4 md-margin-bottom-40">
+                <div class="posts">
+                
+                <div class="headline"><h2>Who we are</h2></div>  
+                <p class="margin-bottom-25 md-margin-bottom-40">
+                    <ul class="list-unstyled margin-bottom-20">
+                        <li><a href="#">Service Areas</a></li>
+                        <li><a href="#">Customer Feedback</a></li>
+                        <li><a href="#">Channel Sales</a></li>
+                        <li><a href="#">Make A Difference</a></li>
+                        <li><a href="#">WTU Retail Energy</a></li>
+                        <li><a href="#">CPL Retail Energy</a></li>
+                    </ul>
+                </p>    
+                
+                <div class="headline"><h2>Get Help</h2></div>  
+                <p class="margin-bottom-25 md-margin-bottom-40">
+                    <ul class="list-unstyled margin-bottom-20">
+                        <li><a href="#">Outage Info</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </p>                     
+                
+                
+                </div>
+            </div><!--/col-md-4-->
+
+            <div class="col-md-4">
+                <!-- Monthly Newsletter -->
+               
+                <div class="headline"><h2>FOLLOW US</h2></div>  
+                <p class="margin-bottom-25 md-margin-bottom-40">
+                    <ul class="list-unstyled margin-bottom-20">
+                        <li><a href="#"><i class="icon-globe"></i> Weekly Energy Market Update</a></li>
+                        <li><a href="#"><i class="icon-globe"></i> Polar Vortex Market Impact Provides Resistance to ...</a></li>
+                        <li><a href="#"><i class="icon-globe"></i> People, Planet, and Profit: Forming a Sustainabili...</a></li>
+                    </ul>
+                </p>  
+
+                <!-- Stay Connected -->
+                <div class="headline"><h2>Stay Connected</h2></div> 
+                <ul class="social-icons">
+                    <li><a href="#"><a href="#" data-original-title="Facebook" class="social_facebook"></a></a></li>
+                    <li><a href="#"><a href="#" data-original-title="Twitter" class="social_twitter"></a></a></li>
+                    <li><a href="#"><a href="#" data-original-title="Goole Plus" class="social_googleplus"></a></a></li>
+                </ul>
+            </div><!--/col-md-4-->
+        </div><!--/row-->   
+    </div><!--/container--> 
+</div><!--/footer-->    
+
+
+
+
+
+<!--=== End Footer ===-->
+
+<!--=== Copyright ===-->
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">                      
+                <p class="copyright-space">
+                       <br>
+                            © 2014 Direct Energy Marketing Limited, a subsidiary of <a href="#" target="blank">Centrica plc.</a>Direct Energy and the Lightning Bolt design are either registered trademarks or trademarks of Direct Energy Marketing Limited in the United States and/or Canada. Use of such trademarks has been licensed by Direct Energy Marketing Limited to its various subsidiaries and affiliates. Direct Energy Business, LLC (DC PSC License No. EA-04-4-4; MD PSC License Nos. IR-437; IR-719; IR-791; PUCT Cert. No. 10011). Products and services vary depending on region or market. 
+                        <br>
+                        <br>
+                     <a href="#">Privacy &amp; Legal</a> | <a href="#" target="_blank">Careers</a> | <a href="#">Site Map</a>
+                </p>
+            </div>
+        </div><!--/row-->
+    </div><!--/container--> 
+</div><!--/copyright--> 
+<!--=== End Copyright ===-->
+
+
+
+
+<div title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 0; cursor: pointer;" id="topcontrol"><img src="../images/up.png" style="width:51px; height:42px"></div></body>
+    
+  
+  
+         
+    
+               
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="../js/hover-dropdown.min.js"></script> 
+<script type="text/javascript" src="../js/back-to-top.js"></script>
+
+       
+<script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="../js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="../js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="../js/jquery.themepunch.revolution.min.js"></script>
+           
+<script type="text/javascript" src="../js/app.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+
+<script type="text/javascript" src="../js/custom.js"></script>
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+        //App.initSliders();
+        //App.initFancybox();
+        //App.initBxSlider();
+        //Index.initRevolutionSlider();                                
+    });
+</script>
+
+
+</html>
